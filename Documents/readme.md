@@ -1,5 +1,6 @@
 # DEVOPS- SRE - Platform Engineering
 
+## -Ideas, Best Practices, mindsets 
 
 ## Reference documents 
 
