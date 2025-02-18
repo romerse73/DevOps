@@ -4,7 +4,7 @@
 
 ## Reference documents 
 
-[DevOps Program Manager](sre-devops/DevOps-ProgramManager.md)
+[DevOps Program Manager](SRE-DevOps//DevOps-ProgramManager.md)
 
 [SRE- Program MaManager](SRE-DevOps/SRE-Program-ManagerLead.md)
 
