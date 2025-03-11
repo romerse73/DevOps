@@ -1,5 +1,6 @@
 # DEVOPS- SRE - Platform Engineering
 
+
 ## -Ideas, Best Practices, mindsets 
 
 [A new merged Mindset emerges to incorporate DevOps-SRE-PlatformEnginering](./DevOps-PE-SRE.md)
