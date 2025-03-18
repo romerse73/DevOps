@@ -7,6 +7,9 @@
 
 [Agile Database Development principles](AGILE-DB-SDLC/AgileDatabasePrinciples.md)
 
+[Gen AI adoption samples ](AGILE-DB-SDLC/AgileDatabasePrinciples.md)
+
+
 ## Reference documents 
 
 [DevOps Program Manager](SRE-DevOps//DevOps-ProgramManager.md)
