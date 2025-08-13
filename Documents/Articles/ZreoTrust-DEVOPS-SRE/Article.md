@@ -44,6 +44,6 @@ To make real progress, you need to tackle this from **three angles**:
 ### **What’s Next?**  
 If any of this resonates (or makes you sweat a little), then it’s time to act. **Start small, but start now.**  
 
-🔗 **[Check out the full checklist here]** (link your detailed version)  
+🔗 **([Check out the full checklist here](https://github.com/romerse73/DevOps/blob/main/Documents/Articles/ZreoTrust-DEVOPS-SRE/ZeroT-DevOps-SREList.md))  **
 
 Let’s stop the chaos, fix the gaps, and build systems that are **fast, secure, and reliable**. Who’s in? 🚀
