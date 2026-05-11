@@ -1,7 +1,18 @@
 name: Run C# Program
 
-on: [push]
-
+on:
+  workflow_dispatch:  #enables to trigger 
+    inputs:
+      repository: 
+        default: "samplerepo"
+        type: string
+        required: true
+      flaglist:
+        default: "none"
+        required: false
+        type: string
+        description: "list of flag to procss"
+        
 jobs:
   build:
     runs-on: ubuntu-latest
