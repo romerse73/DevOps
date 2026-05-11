@@ -1,0 +1,23 @@
+name: Run C# Program
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Run C# code
+        run: |
+          echo 'using System; class Program { static void Main() { Console.WriteLine("Hello, World!"); } }' > Program.cs
+          dotnet new console -n MyApp -o MyApp
+          mv Program.cs MyApp/
+          cd MyApp
+          dotnet run
