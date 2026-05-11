@@ -13,10 +13,26 @@ on:
         type: string
         description: "list of flag to procss"
         
+permissions:
+  actions: read
+  contents: write
+
+#running a csharp items
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FLAG_JSON: ${{ github.event.inputs.flaglist }}
+    outputs:
+      ritm_number: ${{ steps.extract-request.outputs.ritm_number }}    
     steps:
+      - name: Validation params
+        id: Validate
+        shell: bash
+        run: |
+           # steps
+           echo "$FLAG_JSON"
+
       - name: Checkout code
         uses: actions/checkout@v2
 
